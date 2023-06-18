@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Flex布局"
+			}
+		},
+		{
+			"path": "pages/grid/grid",
+			"style": {
+				"navigationBarTitleText": "网格布局"
+			}
+		},
+		{
+			"path": "pages/baifenbi/baifenbi",
+			"style": {
+				"navigationBarTitleText": "百分比布局"
+			}
+		},
+		{
+            "path" : "pages/liushi/liushi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "流式布局",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"backgroundColor": "pink",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "骰子",
+				"iconPath": "image/icon_API.png",
+				"selectedIconPath": "image/icon_API_HL.png"
+			},
+			{
+				"pagePath": "pages/grid/grid",
+				"text": "网格",
+				"iconPath": "/image/icon_API.png",
+				"selectedIconPath": "image/icon_API_HL.png"
+			},
+			{
+				"pagePath": "pages/baifenbi/baifenbi",
+				"text": "百分比",
+				"iconPath": "image/icon_API.png",
+				"selectedIconPath": "image/icon_API_HL.png"
+			},
+			{
+				"pagePath": "pages/liushi/liushi",
+				"text": "流式布局",
+				"iconPath": "./image/icon_API.png",
+				"selectedIconPath": "./image/icon_API_HL.png"
+				
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
